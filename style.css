@@ -43,7 +43,8 @@ body {
 
 .nav {
   grid-area: nav;
-  margin-right: 50px;
+  margin-right: 70px;
+  margin-left: 50px;
 }
 
 .nav__container {
@@ -53,7 +54,7 @@ body {
   grid-template-columns: 1fr;
   min-width: 200px;
   justify-items: center;
-  padding: 12px 0 24px;
+  padding: 10px 10px 10px 10px;
 }
 
 .nav__link, .nav__link--active {

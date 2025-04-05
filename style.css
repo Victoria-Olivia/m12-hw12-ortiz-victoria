@@ -38,6 +38,10 @@ body {
   font-family: 'Pacifico', cursive;
 }
 
+.nav {
+  grid-area: nav;
+}
+
 .nav__container {
   box-shadow: var(--gray) 4px 4px 10px 2px;
   display: grid;

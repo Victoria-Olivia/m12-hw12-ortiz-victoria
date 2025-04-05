@@ -30,6 +30,7 @@ body {
   align-items: center;
   justify-items: center;
   grid-area: header;
+  margin-bottom: 20px;
 }
 
 .header__title {

@@ -56,10 +56,10 @@ body {
   display: grid;
   row-gap: 24px;
   grid-template-columns: 1fr;
-  width: 175px;
+  width: 170px;
   justify-items: center;
   justify-content: center;
-  padding: 10px 10px 10px 10px;
+  padding: 8px;
 }
 
 .nav__link, .nav__link--active {

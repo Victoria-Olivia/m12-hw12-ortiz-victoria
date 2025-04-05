@@ -43,6 +43,7 @@ body {
 
 .nav {
   grid-area: nav;
+  margin-right: 50px;
 }
 
 .nav__container {
@@ -90,7 +91,7 @@ body {
   padding: 0 12px;
 }
 
-.img_card_container {
+.img_card__container {
   grid-area: main;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -121,5 +122,14 @@ body {
   }
   .nav__link::after, .nav__link--active::after {
     display: none;
+  }
+  body {
+    grid-template-areas: 
+      "header"
+      "nav" 
+      "main"
+      "footer";
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto auto;
   }
 }

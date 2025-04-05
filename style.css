@@ -57,6 +57,7 @@ body {
   row-gap: 24px;
   grid-template-columns: 1fr;
   width: 170px;
+  max-width: 100%;
   justify-items: center;
   justify-content: center;
   padding: 8px;

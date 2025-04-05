@@ -87,10 +87,15 @@ body {
   padding: 0 12px;
 }
 
+.img_card_container {
+  grid-area: main;
+}
+
 .footer {
   display: grid;
   align-items: center;
   justify-items: center;
+  grid-area: footer;
 }
 
 @media screen and (max-width: 1100px) {

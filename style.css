@@ -60,6 +60,7 @@ body {
   justify-items: center;
   justify-content: center;
   padding: 8px;
+  text-align: center;
 }
 
 .nav__link, .nav__link--active {

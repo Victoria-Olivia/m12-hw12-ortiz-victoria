@@ -126,6 +126,12 @@ body {
   .header__title {
     font-size: 2rem;
   }
+
+  .nav {
+    margin: 10px auto;
+    width: 100%;
+    justify-content: center;
+  }
   .nav__container {
     width: 80vw;
     min-width: 300px;

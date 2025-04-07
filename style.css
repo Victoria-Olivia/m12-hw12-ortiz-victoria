@@ -127,10 +127,9 @@ body {
     font-size: 2rem;
   }
   .nav__container {
-    width: 100%;
-    max-width: 500px;
+    width: 80vw;
     min-width: 300px;
-    grid-template-columns: repeat(auto-fit, minmax(100px) 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
   .nav__link, .nav__link--active {
     text-decoration: underline;
